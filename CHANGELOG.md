@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.3
+
+[compare changes](https://github.com/0xLLLLH/utils/compare/v0.0.2...v0.0.3)
+
+### 🏡 Chore
+
+- Make public ([af3a5d3](https://github.com/0xLLLLH/utils/commit/af3a5d3))
+
+### ❤️ Contributors
+
+- 0xLLLLH ([@0xLLLLH](http://github.com/0xLLLLH))
+
 ## v0.0.2
 
 [compare changes](https://github.com/0xLLLLH/utils/compare/v0.0.1...v0.0.2)
