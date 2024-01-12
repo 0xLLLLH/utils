@@ -1,22 +1,22 @@
 {
-  "name": "vite-vanilla-library",
+  "name": "@0xllllh/utils",
   "type": "module",
   "version": "0.0.0",
   "private": true,
   "exports": {
     ".": {
-      "import": "./dist/vite-vanilla-library.js",
-      "require": "./dist/vite-vanilla-library.cjs"
+      "import": "./dist/utils.js",
+      "require": "./dist/utils.cjs"
     }
   },
-  "main": "./dist/vite-vanilla-library.cjs",
-  "module": "./dist/vite-vanilla-library.js",
-  "types": "./dist/vite-vanilla-library.d.ts",
+  "main": "./dist/utils.cjs",
+  "module": "./dist/utils.js",
+  "types": "./dist/utils.d.ts",
   "files": ["dist"],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "release": "pnpm test && pnpm build && changelogen --release && pnpm publish && git push --follow-tags",
+    "release": "npm run test && npm run build && changelogen --release && npm publish && git push --follow-tags",
     "lint": "eslint . --fix",
     "test": "vitest --run",
     "test:watch": "vitest",
@@ -40,6 +40,6 @@
     "vitest": "^1.1.3"
   },
   "lint-staged": {
-    "*.ts": "pnpm run lint"
+    "*.ts": "npm run lint"
   }
 }

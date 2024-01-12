@@ -23,7 +23,7 @@ This is a template repo. Click the green [Use this template](https://github.com/
 ```shell
 git clone https://github.com/hywax/vite-vanilla-library-template.git
 cd vite-vanilla-library-template
-pnpm install
+npm install
 ```
 
 ## Usage
