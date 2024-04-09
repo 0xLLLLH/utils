@@ -1,6 +1,27 @@
 # Changelog
 
 
+## v0.0.5
+
+[compare changes](https://github.com/0xLLLLH/utils/compare/v0.0.4...v0.0.5)
+
+### 🚀 Enhancements
+
+- Add exhaustiveCheck() ([0a66ec3](https://github.com/0xLLLLH/utils/commit/0a66ec3))
+
+### 📖 Documentation
+
+- Add badges to README.md ([2c1d111](https://github.com/0xLLLLH/utils/commit/2c1d111))
+
+### 📦 Build
+
+- **deps-dev:** Bump vitest from 1.1.3 to 1.2.0 ([#4](https://github.com/0xLLLLH/utils/pull/4))
+- **deps-dev:** Bump @vitest/coverage-v8 from 1.1.3 to 1.2.1 ([#6](https://github.com/0xLLLLH/utils/pull/6))
+
+### ❤️ Contributors
+
+- 0xLLLLH ([@0xLLLLH](http://github.com/0xLLLLH))
+
 ## v0.0.4
 
 [compare changes](https://github.com/0xLLLLH/utils/compare/v0.0.3...v0.0.4)
