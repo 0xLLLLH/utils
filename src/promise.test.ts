@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
-import { resolveAfter,rejectAfter } from './promise'
+import { rejectAfter, resolveAfter } from './promise'
 
 // set a small value to avoid the tests spend too much time
 const waitTimeInMs = 50
@@ -13,8 +13,7 @@ describe('promise', () => {
     })
   })
 
-
-  describe('resolveAfter()', () => {
+  describe('rejectAfter()', () => {
     it('should resolve with correct value', async () => {
       try {
         await rejectAfter(waitTimeInMs, 666)
